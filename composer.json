@@ -1,0 +1,19 @@
+{
+  "name": "belajar/php-mvc",
+  "autoload": {
+    "psr-4": {
+      "Belajar\\PhpMvc\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "syafiqparadisam",
+      "email": "syafiqparadisam@gmail.com"
+    }
+  ],
+  "require": {
+    "cloudinary/cloudinary_php": "^2",
+    "ramsey/uuid": "^4.7",
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
